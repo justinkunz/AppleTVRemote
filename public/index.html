@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple TV Client</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./assets/style.css"
+  </head>
+  <body>
+    <div class="container">
+      <div class="apple-tv-case">
+          <div class="apple-tv-pad">
+              <div class="apple-tv-pad--select" data-key="Select">SELECT</div>
+              <div class="apple-tv-pad-dir apple-tv-pad--up" data-key="Up">
+                &#9650;
+              </div>
+              <div class="apple-tv-pad-dir apple-tv-pad--left" data-key="Left">
+                &#9650;
+              </div>
+              <div class="apple-tv-pad-dir apple-tv-pad--right" data-key="Right">
+                &#9650;
+              </div>
+              <div class="apple-tv-pad-dir apple-tv-pad--down" data-key="Down">
+                &#9650;
+              </div>
+          </div>
+        <div class="apple-tv-btn-set">
+          <div class="apple-tv-btn menu-btn"  data-key="Menu">MENU</div>
+          <div class="apple-tv-btn" data-key="Tv">
+            <i class="fas fa-tv"></i>
+          </div>
+        </div>
+        <div class="apple-tv-btn-set">
+          <div class="apple-tv-btn" data-key="Suspend">
+            <i class="fas fa-power-off" data-key="Suspend"></i>
+          </div>
+          <div class="apple-tv-btn vol-btn-set">
+              <div class="apple-tv-vol-control" data-key="VolumeUp">+</div>
+              <div class="apple-tv-vol-control" data-key="VolumeDown">-</div>
+          </div>
+        </div>
+        <div class="apple-tv-btn-set after-vol">
+          <div class="apple-tv-btn" data-key="Pause">&#9658</div>
+          <div class="apple-tv-btn hidden-btn"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
