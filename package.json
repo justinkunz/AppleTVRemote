@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "inquirer": "^7.1.0",
     "node-appletv-x": "^1.0.16",
     "path": "^0.12.7"
